@@ -1,0 +1,26 @@
+.all{
+  width: 350px;
+}
+
+.a{
+  width:100%;
+  margin:0 auto;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.display{
+  width: 100%;
+  text-align:right;
+  border: 1px solid black;
+  margin: 0 auto;
+  padding: 0 5px;
+}
+
+.half{
+  width: 50%;
+}
+
+.quarter{
+  width:25%;
+}

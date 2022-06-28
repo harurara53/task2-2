@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="utf-8">
+        <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>  
+        <link rel="stylesheet" href="main2.css">
+        <title>電卓</title>
+      </head>
+ 
+      <body>
+        <h3>電卓</h3>
+ 
+        <!-- ここに記述していきましょう！ -->
+        <div class="all">
+          <div class="a">
+            <p class="display" id="result" type="text">0</p>
+          </div>
+          <div class="a">
+            <!--123+-->
+            <button class="quarter" onclick="clickButton(this)">1</button>
+            <button class="quarter" onclick="clickButton(this)">2</button>
+            <button class="quarter" onclick="clickButton(this)">3</button>
+            <button class="quarter" onclick="clickButton(this)">+</button>
+          </div>
+          <div class="a">
+            <!--456--->
+            <button class="quarter" onclick="clickButton(this)">4</button>
+            <button class="quarter" onclick="clickButton(this)">5</button>
+            <button class="quarter" onclick="clickButton(this)">6</button>
+            <button class="quarter" onclick="clickButton(this)">-</button>
+          </div>
+          <div class="a">
+            <!--789*-->
+            <button class="quarter" onclick="clickButton(this)" type="button">7</button>
+            <button class="quarter" onclick="clickButton(this)" type="button">8</button>
+            <button class="quarter" onclick="clickButton(this)" type="button">9</button>
+            <button class="quarter" onclick="clickButton(this)" type="button">*</button>
+          </div>
+          <div class="a">
+            <!--0/00/./-->
+            <button class="quarter" onclick="clickButton(this)" type="button">0</button>
+            <button class="quarter" onclick="clickButton(this)" type="button">00</button>
+            <button class="quarter" onclick="clickButton(this)" type="button">.</button>
+            <button class="quarter" onclick="clickButton(this)" type="button">/</button>
+          </div>
+          <div class="a">
+            <!--AC=-->
+            <button class="half" onclick="clickButton(this)" type="button">AC</button>
+            <button class="half" onclick="clickButton(this)" type="button">=</button>
+          </div>
+        </div>
+        <script src="main2.js"></script>
+      </body>
+    </html>
