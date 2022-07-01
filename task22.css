@@ -1,0 +1,22 @@
+.all{
+    width: 350px;
+}
+
+.a{
+    display: flex;
+}
+
+.display{
+    text-align: right;
+    border: 1px solid black;
+    margin: 0 auto;
+    padding: 0 5px;
+}
+
+.quarter{
+    width: 25%;
+}
+
+.half{
+    width: 50%;
+}

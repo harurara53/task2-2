@@ -1,0 +1,52 @@
+ <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="utf-8">
+        <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>  
+        <link rel="stylesheet" href="task2-2.css">
+        <title>電卓</title>
+      </head>
+   
+      <body>
+        <h3>電卓</h3>
+ 
+        <!-- ここに記述していきましょう！ -->
+        <div class="all">
+          <p class="display" id="result" type="text" readonly>0</p>
+          <div class="a">
+            <button class="quarter" type="button" onclick="clickN(this)">1</button>
+            <button class="quarter" type="button" onclick="clickN(this)">2</button>
+            <button class="quarter" type="button" onclick="clickN(this)">3</button>
+            <button class="quarter" type="button" onclick="clickO(this)">+</button>
+          </div>
+          <!--456--->
+          <div class="a">
+            <button class="quarter" type="button" onclick="clickN(this)">4</button>
+            <button class="quarter" type="button" onclick="clickN(this)">5</button>
+            <button class="quarter"  type="button" onclick="clickN(this)">6</button>
+            <button class="quarter" type="button" onclick="clickO(this)">-</button>
+          </div>
+          <!--789*-->
+          <div class="a">
+            <button class="quarter" type="button" onclick="clickN(this)">7</button>
+            <button class="quarter" type="button" onclick="clickN(this)">8</button>
+            <button class="quarter" type="button" onclick="clickN(this)">9</button>
+            <button class="quarter" type="button" onclick="clickO(this)">*</button>
+          </div>
+          <!--0/00/./-->
+          <div class="a">
+            <button class="quarter" type="button" onclick="clickN(this)">0</button>
+            <button class="quarter" type="button" onclick="clickN(this)">00</button>
+            <button class="quarter" type="button" onclick="clickP(this)">.</button>
+            <button class="quarter" type="button" onclick="clickO(this)">/</button>
+          </div>
+          <!--AC=-->
+          <div class="a">
+            <button class="half" type="button" onclick="clickC(this)">AC</button>
+            <button class="half" type="button" onclick="clickE(this)">=</button>
+          </div>
+        </div>
+        
+        <script src="task2-2.js"></script>
+      </body>
+    </html>
